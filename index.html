@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <main>
+    <section id="game-field">
+      <canvas id="game-map"></canvas>
+    </section>
+
+    <section id="legend">
+      <ul class="legend-list">
+        <li class="legend-item">
+          <div class="game-object game-object__player-tank"></div>
+        </li>
+        <li class="legend-item">
+          <div class="game-object game-object__enemy-tank"></div>
+        </li>
+        <li class="legend-item">
+          <div class="game-object game-object__wall"></div>
+        </li>
+        <li id="stop_game" class="hide">
+          STOP
+        </li>
+        <li id="run_game" class="show">
+          RUN
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <script src="js/map.js"></script>
+  <script src="js/constants.js"></script>
+  <script src="js/tank.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
